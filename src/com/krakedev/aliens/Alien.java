@@ -80,5 +80,23 @@ public class Alien {
         System.out.println("Precio ojo: " + precioOjo);
 	}
 	
+	public boolean agregarBrazos(int cantidad) {
+		if(numeroBrazos + numeroPies + cantidad <= 10) {
+			numeroBrazos = numeroBrazos + cantidad;
+			return true;
+		}else {
+			return false;
+		}
+	}
+	
+	public boolean agregarPies(int cantidad) {
+	    if (numeroBrazos + numeroPies + cantidad <= 10) {
+	        numeroPies = numeroPies + cantidad;
+	        return true;
+	    } else {
+	        return false;
+	    }
+	}
+	
 	
 }

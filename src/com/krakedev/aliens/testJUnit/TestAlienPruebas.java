@@ -53,5 +53,6 @@ public class TestAlienPruebas {
 	        assertEquals(1.0, alien.getPrecioOjo(), TOLERANCIA);
 	    }
 	    
+	    
 
 }
