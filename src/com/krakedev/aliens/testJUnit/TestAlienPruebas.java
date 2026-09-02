@@ -35,22 +35,22 @@ public class TestAlienPruebas {
 	    
 	    @Test
 	    public void calcularPrecioCuerpo() {
-	        Alien alien = new Alien(20, "Blanco");
-	        assertEquals(4.0, alien.getPrecioCuerpo(), TOLERANCIA);
+	        Alien a1 = new Alien(20, "Blanco");
+	        assertEquals(4.0, a1.getPrecioCuerpo(), TOLERANCIA);
 	    }
 
 	    @Test
 	    public void calcularPrecioExtremidad() {
-	        Alien alien = new Alien(20, "Blanco");
+	        Alien a1 = new Alien(20, "Blanco");
 
-	        assertEquals(2.0, alien.getPrecioExtremidad(), TOLERANCIA);
+	        assertEquals(2.0, a1.getPrecioExtremidad(), TOLERANCIA);
 	    }
 
 	    @Test
 	    public void calcularPrecioOjo() {
-	        Alien alien = new Alien(20, "Blanco");
+	        Alien a1 = new Alien(20, "Blanco");
 
-	        assertEquals(1.0, alien.getPrecioOjo(), TOLERANCIA);
+	        assertEquals(1.0, a1.getPrecioOjo(), TOLERANCIA);
 	    }
 	    
 	    
