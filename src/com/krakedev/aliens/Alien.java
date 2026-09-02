@@ -98,5 +98,24 @@ public class Alien {
 	    }
 	}
 	
+	public boolean agregarOjos(int cantidad) {
+		int ojos;
+		if(tamanio <=10) {
+			ojos = 3;
+		}else if(tamanio >10) {
+			ojos = 5;
+		}else {
+			ojos = 7;
+		}
+		
+		if (numeroOjos + cantidad <= ojos) {
+			numeroOjos = numeroOjos + cantidad;
+			
+			return true;
+		}else {
+			return false;
+		}
+	}
+	
 	
 }
